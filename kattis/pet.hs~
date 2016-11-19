@@ -1,0 +1,7 @@
+main =do
+  as<-getLine
+  bs<-getLine
+  cs<-getLine
+  ds<-getLine
+  es<-getLine
+  putStrLn largest (as:bs:cs:ds:es:[])

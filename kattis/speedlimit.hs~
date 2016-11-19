@@ -1,0 +1,11 @@
+{-
+main = do
+  n<-readLn
+  if n==-1
+     then do nothing
+     else do
+        as<-mapM (const getLine) [1..n]
+        main
+  mapM putStrLn (sol as)
+-}
+

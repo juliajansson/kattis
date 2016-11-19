@@ -1,0 +1,7 @@
+subract:: [Int,Int]->[Int,Int]
+
+main=do
+  as<-getLine
+  let bs=subtract (words as)
+      cs=(fst bs)++" "++(snd cs)
+  putStrLn 

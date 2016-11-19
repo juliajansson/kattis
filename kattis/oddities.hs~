@@ -1,0 +1,8 @@
+main = do
+  n<-readLn
+  as<-mapM (const getLine) [1..n]
+  putStr (sol as)
+
+parity::Int->String
+parity x|mod n 2==0="x is even"
+        |otherwise ="x is odd"
